@@ -4,19 +4,25 @@ footer{background-color:#353535; color: white; padding-bottom:20px;}
 #foot1,#foot2,#foot3,#foot4 a{padding-left: 5px;}
 
 h5#firstchild{padding-top:20px;}
-
+.container {
+    margin: 0%;
+}
 .foot{
     color:rgb(113, 163, 228);
-    font-size: 20px;
+    font-size: 22px;
     font-weight:bold;
 }
-#foot3 h4{
+#foot3 {
     padding-top: 15px;
-    line-height: 1.4;
+    padding-left: 50%;
 }
-
-.container {
-    justify-content: left;
+#noms {
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+}
+#mentions {
+    font-size: 18px;
 }
 
 ul.social-network {
@@ -69,4 +75,5 @@ a.socialIcon:hover, .socialHoverClass {
 }
 #nomf {
     color: white;
+    font-size: 18px;
 }
