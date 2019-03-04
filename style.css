@@ -1,15 +1,22 @@
 #bg3{background-color:#353535;}
 #bg3 .foot{padding-top: 15px;}
 footer{background-color:#353535; color: white; padding-bottom:20px;}
-#foot1,#foot2,#foot3,#foot4 a{color:white;padding-left: 5px;}
+#foot1,#foot2,#foot3,#foot4 a{padding-left: 5px;}
 
 h5#firstchild{padding-top:20px;}
 
-#foot1,#foot2,#foot3,#foot4{color:rgb(113, 163, 228);}
-#foot3 h4{padding-top: 15px;line-height: 1.4}
+.foot{
+    color:rgb(113, 163, 228);
+    font-size: 20px;
+    font-weight:bold;
+}
+#foot3 h4{
+    padding-top: 15px;
+    line-height: 1.4;
+}
 
 .container {
-    justify-content: space-around;
+    justify-content: left;
 }
 
 ul.social-network {
@@ -25,7 +32,6 @@ ul.social-network li {
 
 .social-network a.icoRss {
     background-color: #F56505;
-    color:#fff;
 }
 .social-network a.icoFacebook {
     background-color:#3B5998;
@@ -58,7 +64,10 @@ a.socialIcon:hover, .socialHoverClass {
     text-align: center;
 }
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     left: 0%;
+}
+#nomf {
+    color: aliceblue;
 }
