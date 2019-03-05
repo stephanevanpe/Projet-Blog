@@ -1,5 +1,5 @@
 #bg3{background-color:#353535;}
-#bg3 .foot{padding-top: 15px;}
+#bg3 .foot{padding-top: 15px;padding-bottom: 15px;}
 footer{background-color:#353535; color: white; padding-bottom:20px;}
 #foot1,#foot2,#foot3,#foot4 a{padding-left: 5px;}
 
@@ -14,7 +14,7 @@ h5#firstchild{padding-top:20px;}
 }
 #foot3 {
     padding-top: 15px;
-    padding-left: 50%;
+    padding-left: 40%;
 }
 #noms {
     font-size: 16px;
@@ -75,5 +75,5 @@ a.socialIcon:hover, .socialHoverClass {
 }
 #nomf {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
