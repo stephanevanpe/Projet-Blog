@@ -113,10 +113,7 @@
                         <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                     </div>
                 </div>
-            </div>
-        </section>
-
-                </div>
+<<<<<<< HEAD
         </div>
             </section>
 
@@ -130,6 +127,11 @@
                   </p>
                 </div>
               </div>
+=======
+            </div>
+        </section>
+
+>>>>>>> 76d4a2aaf3cf22b6dea419380326b5d1ce791185
         <!--Video-->
         <section id="video">
             <div class="card text-center">
