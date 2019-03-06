@@ -14,35 +14,36 @@
     <title>Big Pig Junk Food Blog</title>
 </head>
 
-<body> 
+<body>
     <!--Partie de la Navbar-->
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <img src="images/BigBurgerPig.jpg" width="30" height="30" alt="logo wild junk food">
-                <a class="navbar-brand" href="#">Big Pig Junk Food </a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #FFC0CB">
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-3 my-lg-0">
-                        <input class="form-control mr-sm-3" type="search" placeholder="Recherche">
-                        <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Recherche</button>
-                    </form>
-                </div>
-            </nav>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="images/BigBurgerPig.jpg" width="30" height="30" alt="logo wild junk food">
+        <a class="navbar-brand" href="#">Big Pig Junk Food </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-3 my-lg-0">
+                <input class="form-control mr-sm-3" type="search" placeholder="Recherche">
+                <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Recherche</button>
+            </form>
+        </div>
+    </nav>
     <header>
 
         <div class="container-fluid">
@@ -104,15 +105,16 @@
             <!--Carte Newsletter-->
             <div class="card" style="width: 18rem;">
                 <div class="card-header">Abonnez-vous à notre Blog !</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Et recevez notre newsletter</h5>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <div class="card-body">
+                    <h5 class="card-title">Et recevez notre newsletter</h5>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="e-mail@mail.com">
-                        <small id="emailHelp" class="form-text text-muted">Vos données personnelles resteront strictement confidentielles.</small>
-                        <input class="btn btn-primary" type="submit" value="Je m'abonne">
-                    </div>
+                    <small id="emailHelp" class="form-text text-muted">Vos données personnelles resteront strictement
+                        confidentielles.</small>
+                    <input class="btn btn-primary" type="submit" value="Je m'abonne">
                 </div>
             </div>
+        </div>
         </div>
         <div class="container-fluid" id="article3">
             <div class="card" style="width: 40rem">
@@ -143,8 +145,8 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="card" style="width: 40rem;">
+        <div class="container-fluid" id="article4">
+            <div class="card" style="width: 40rem">
                 <img src="images/Malbouffe_maladies.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">UN LIEN ENTRE MALBOUFFE ET MALADIES MENTALES</h5>
@@ -156,9 +158,10 @@
                     <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
+
             <!--Video-->
             <section id="video">
-                <div class="card text-center" style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <p class="card-text">
                             <iframe width="250" height="315" src="https://www.youtube.com/embed/64yAzs5ywlc"
@@ -169,6 +172,8 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="container-fluid" id="article5">
             <div class="card" style="width: 40rem;">
                 <img src="images/Malbouffe_kids.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -182,21 +187,35 @@
                     <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
-
-            <!-- Bouttons de navigation entre pages-->
-            <section id="bouttons">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="btn-group" role="group" aria-label="Third group">
-                            <button type="button" class="btn btn-secondary">1</button>
-                            <button type="button" class="btn btn-secondary">2</button>
-                            <button type="button" class="btn btn-secondary">3</button>
-                            <button type="button" class="btn btn-secondary">...</button>
-                            <button type="button" class="btn btn-secondary">></button>
-                        </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <div id="responsive-images"
+                        data-responsive="">
+                        <a href="images/gallery/Addict.jpg">
+                            <img src="" />
+                        </a>
+                        <a href="img/img2.jpg"
+                            data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2-757.jpg 757">
+                            <img src="img/thumb2.jpg" />
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+        <!-- Bouttons de navigation entre pages-->
+        <section id="bouttons">
+            <div class="card">
+                <div class="card-body">
+                    <div class="btn-group" role="group" aria-label="Third group">
+                        <button type="button" class="btn btn-secondary">1</button>
+                        <button type="button" class="btn btn-secondary">2</button>
+                        <button type="button" class="btn btn-secondary">3</button>
+                        <button type="button" class="btn btn-secondary">...</button>
+                        <button type="button" class="btn btn-secondary">></button>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
     </section>
 
@@ -204,51 +223,50 @@
 
     <!--Footer-->
     <footer>
-        <div id="container">
+        <div class="container-fluid" id="footer">
+            <div class="container">
                 <img src="images/BigBurgerPig.jpg" class="logo" alt="">
                 <p id="nomf">Big Pig Junk Food</p>
                 <p id="noms">Créé par les Wilder: Amine, Sarah, Stéphane</p>
 
-        </div>
-        <div id="container">
-            <div class="">
-                <a class="foot" href="#">Accueil</a>
             </div>
-            <div>
-                <a class="foot" href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank">À Propos</a>
+            <div class="container">
+                <div class="">
+                    <a class="foot" href="#">Accueil</a>
+                </div>
+                <p></p>
+                <div>
+                    <a class="foot" href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank">À Propos</a>
+                </div>
+                <p></p>
+                <div id="foot4" class="">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank" class="icoFacebook"
+                                title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/mcdonalds" target="_blank" class="icoTwitter"
+                                title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="foot4" class="">
-                <ul class="social-network social-circle">
-                    <li><a href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank" class="icoFacebook"
-                            title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://twitter.com/mcdonalds" target="_blank" class="icoTwitter" title="Twitter"><i
-                                class="fab fa-twitter"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div id="container">
+            <div class="container">
                 <div id="foot2" class="">
-                    <a class="foot" href="#">Nous Contacter:</a>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="e-mail@mail.com"></p>
-                                <small id="emailHelp" class="form-text text-muted">Vos données personnelles resteront
-                                    strictement
-                                    confidentielles.</small>
-                                <label for="exampleFormControlTextarea1"> Votre message :</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                <input class="btn btn-primary" type="submit" value="Envoyer">
-                            </div>
+                    <div class="card">
+                        <div class="card-body foot">
+                            <h5 class="card-title">Nous contacter</h5>
+                            <p class="card-text">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="@"></p>
+                            <small id="emailHelp" class="form-text text-muted">Vos données personnelles resteront
+                                strictement confidentielles.</small>
+                            <label for="exampleFormControlTextarea1"> Votre message :</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <input class="btn btn-primary" type="submit" value="Envoyer">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        </div>
         <div id="foot3" class="">
             <a class="foot" id="mentions" href="#">Mentions Légales</a>
         </div>
