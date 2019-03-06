@@ -32,10 +32,10 @@
                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#foot4">A propos</a>
+                    <a class="nav-link" href="#">A propos</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#foot2" tabindex="-1" aria-disabled="true">Contact</a>
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                 </li>
             </ul>
             <form class="form-inline my-3 my-lg-0">
@@ -57,7 +57,7 @@
     <!--Articles-->
     <section id="articles">
         <div class="container-fluid" id="article1">
-            <div class="card border-dark" style="width: 40rem;">
+            <div class="card" style="width: 40rem;">
                 <img src="images/Malbouffe_baiona.jpg" class="card-img-top" alt="Baiona contre la malbouffe">
                 <div class="card-body">
                     <h5 class="card-title">LE COMPTOIR PAYSAN, REMÈDE À LA MALBOUFFE DES FÊTES DE BAYONNE</h5>
@@ -71,11 +71,11 @@
                         et le point de rendez-vous de milliers de bestazale qui veulent manger pas cher, mais manger
                         bien..</p>
                     <p class="card-text"><small class="text-muted"> 04 Mars 2019</small></p>
-                    <button type="button" href="#" class="btn btn-secondary">Lire la suite</button>
+                    <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
             <!--Carte A propos ( txt + 1 photo)-->
-            <div class="card border-dark" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
                 <img src="images/BigPigJK_Team.jpg" class="card-img-top" alt="Big Pig Junk Food Team">
                 <div class="card-body">
                     <h5 class="card-title">Notre leit motiv chez BPJK:</h5>
@@ -90,43 +90,34 @@
             </div>
         </div>
         <div class="container-fluid" id="article2">
-            <div class="card border-dark" style="width: 40rem;">
+            <div class="card" style="width: 40rem;">
                 <img src="images/Malbouffe_fastandgood.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">FAST AND GOOD", LA NOUVELLE TENDANCE DES FAST-FOODS SAINS ET ABORDABLES POUR
                         LUTTER CONTRE LA MALBOUFFE</h5>
-                    <p class="card-text justify-content-center">Pour lutter contre la malbouffe, de plus en plus de chefs ouvrent 
-                        des fast-food plus sains et responsables que les McDonald's, Quick ou Burger King. C'est le cas du célèbre 
-                        chef Thierry Marx qui va en ouvrir un, bio, sur les Champs-Élysées. 
-                        Aux États-Unis, c'est une tendance qui prend de l'ampleur. Reste à maintenir des prix bas pour permettre à 
-                        tous d'accéder à une alimentation saine et durable. </p>
+                    <p class="card-text justify-content-center">This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                        This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">01 mars 2019</small></p>
-                    <button type="button" href="#" class="btn btn-secondary">Lire la suite</button>
+                    <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
             <!--Carte Newsletter-->
-            <div class="card border-dark" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
                 <div class="card-header">Abonnez-vous à notre Blog !</div>
                 <div class="card-body">
                     <h5 class="card-title">Et recevez notre newsletter</h5>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="@">
-                        <br/>
+                        placeholder="e-mail@mail.com">
                     <small id="emailHelp" class="form-text text-muted">Vos données personnelles resteront strictement
                         confidentielles.</small>
-                    <br/>
-                    <input class="btn btn-secondary" type="submit" value="Je m'abonne">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <img src="https://media0.giphy.com/media/3oEdv5S8Th6b9gsNqM/giphy.gif" style="width:100%; height:300px">
+                    <input class="btn btn-primary" type="submit" value="Je m'abonne">
                 </div>
             </div>
         </div>
         </div>
         <div class="container-fluid" id="article3">
-            <div class="card border-dark" style="width: 40rem">
+            <div class="card" style="width: 40rem">
                 <img src="images/Malbouffe_Bordeaux.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">BORDEAUX, ENCORE CLASSÉE PREMIÈRE VILLE DE LA MALBOUFFE</h5>
@@ -136,17 +127,17 @@
                         ville a en effet la plus forte densité par habitants d’enseignes de restauration rapide.
                         Conséquences de la malbouffe : surpoids, diabète, hypertension, cancers, etc….</p>
                     <p class="card-text"><small class="text-muted">27 Février 2019</small></p>
-                    <button type="button" href="#" class="btn btn-secondary">Lire la suite</button>
+                    <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
             <!--Carte Catégories-->
-            <div class="card border-dark text-center" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <img src="images/categories_junk-food.jpg" class="card-img-top" alt="liste des catégories">
                 <div class="card-body">
                     <h5 class="card-title">Catégories</h5>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="list-group-item list-group-item-action active-secondary">Société</a>
+                    <a href="#" class="list-group-item list-group-item-action active">Société</a>
                     <a href="#" class="list-group-item list-group-item-action">Santé</a>
                     <a href="#" class="list-group-item list-group-item-action">Insolite</a>
                     <a href="#" class="list-group-item list-group-item-action">Tendances</a>
@@ -155,7 +146,7 @@
             </div>
         </div>
         <div class="container-fluid" id="article4">
-            <div class="card border-dark" style="width: 40rem">
+            <div class="card" style="width: 40rem">
                 <img src="images/Malbouffe_maladies.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">UN LIEN ENTRE MALBOUFFE ET MALADIES MENTALES</h5>
@@ -164,13 +155,13 @@
                         maladies mentales.
                         C'est le résultat d'une nouvelle étude menée aux États-Unis..</p>
                     <p class="card-text"><small class="text-muted">24 Février 2019</small></p>
-                    <button type="button" href="#" class="btn btn-secondary">Lire la suite</button>
+                    <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
 
             <!--Video-->
             <section id="video">
-                <div class="card border-dark" style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <p class="card-text">
                             <iframe width="250" height="315" src="https://www.youtube.com/embed/64yAzs5ywlc"
@@ -183,7 +174,7 @@
             </section>
         </div>
         <div class="container-fluid" id="article5">
-            <div class="card border-dark" style="width: 40rem;">
+            <div class="card" style="width: 40rem;">
                 <img src="images/Malbouffe_kids.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">WE DEMAIN: LES GÉANTS DE LA MALBOUFFE PRENNENT NOS ENFANTS POUR CIBLES"</h5>
@@ -193,29 +184,39 @@
                         Problème selon l'ONG Foodwatch : les enfants sont leur cible préférée. Les industriels de la
                         malbouffe prennent nos enfants pour cibles", dénonce l’ONG Foodwatch, … »</p>
                     <p class="card-text"><small class="text-muted">20 Février 2019</small></p>
-                    <button type="button" href="#" class="btn btn-secondary">Lire la suite</button>
+                    <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                 </div>
             </div>
-            <div class="card border-dark" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
                 <div class="card-body">
                     <div id="srcset">
                         <a href="images/gallery/Addict.jpg" data-srcset="images/gallery/Addict-375.jpg 375w"
                             data-sizes="(min-width: 40em) 80vw, 100vw">
-                            <img src="images/gallery/Addict-miniature.jpg" />
+                            <img src="images/gallery/Addict.jpg" />
                         </a>
                         <a href="images/gallery/Brand.jpg" data-srcset="images/gallery/Brand-375.jpg 375w"
                             data-sizes="(min-width: 40em) 80vw, 100vw">
-                            <img src="images/gallery/Brand-miniature.jpg" />
+                            <img src="img/thumb2.jpg" />
                         </a>
                         <a href="images/gallery/candies-colorful-colourful-33385.jpg"
                             data-srcset="images/gallery/candies-colorful-colourful-33385-375.jpg 375w"
                             data-sizes="(min-width: 40em) 80vw, 100vw">
-                            <img src="images/gallery/candies-colorful-colourful-33385-miniature.jpg" />
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/Malbouffe-bouche.jpg"
+                            data-srcset="images/gallery/Malbouffe-bouche-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/jay-wennington-280328-unsplash.jpg"
+                            data-srcset="images/gallery/jay-wennington-280328-unsplash-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
                         </a>
                         <a href="images/gallery/veggie_vs_junk.jpg"
                             data-srcset="images/gallery/veggie_vs_junk-375.jpg 375w"
                             data-sizes="(min-width: 40em) 80vw, 100vw">
-                            <img src="images/gallery/veggie_vs_junk-miniature.jpg" />
+                            <img src="img/thumb2.jpg" />
                         </a>
                     </div>
                 </div>
@@ -224,13 +225,17 @@
         <!-- Bouttons de navigation entre pages-->
         <section id="bouttons">
             <div class="card">
+<<<<<<< HEAD
+                <div class="card-body">
+=======
                 <div class="card-body no-border">
+>>>>>>> effc5d285e2f759a737371710f8d0a52444fcb5e
                     <div class="btn-group" role="group" aria-label="Third group">
-                        <button type="button" class="btn btn-light">1</button>
-                        <button type="button" class="btn btn-light">2</button>
-                        <button type="button" class="btn btn-light">3</button>
-                        <button type="button" class="btn btn-light">...</button>
-                        <button type="button" class="btn btn-light">></button>
+                        <button type="button" class="btn btn-secondary">1</button>
+                        <button type="button" class="btn btn-secondary">2</button>
+                        <button type="button" class="btn btn-secondary">3</button>
+                        <button type="button" class="btn btn-secondary">...</button>
+                        <button type="button" class="btn btn-secondary">></button>
                     </div>
                 </div>
             </div>
@@ -269,7 +274,7 @@
             </div>
             <div class="container">
                 <div id="foot2" class="">
-                    <div class="card border-dark">
+                    <div class="card">
                         <div class="card-body foot">
                             <h5 class="card-title">Nous contacter</h5>
                             <p class="card-text">
@@ -279,7 +284,7 @@
                                 strictement confidentielles.</small>
                             <label for="exampleFormControlTextarea1"> Votre message :</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <input class="btn btn-secondary" type="submit" value="Envoyer">
+                            <input class="btn btn-primary" type="submit" value="Envoyer">
                         </div>
                     </div>
                 </div>
@@ -289,6 +294,8 @@
         <div id="foot3" class="">
             <a class="foot" id="mentions" href="#">Mentions Légales</a>
         </div>
+<<<<<<< HEAD
+=======
 
 
         <!-- Button trigger modal -->
@@ -313,6 +320,7 @@
 
 
 
+>>>>>>> effc5d285e2f759a737371710f8d0a52444fcb5e
     </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
