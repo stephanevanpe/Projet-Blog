@@ -1,18 +1,14 @@
 
-
-
-
-
-
+/*Body*/
 
 
 /*Footer*/
-footer{background-color:#353535; color: white; padding-bottom:20px;}
+footer{background-color:#FFC0CB; color: white; padding-bottom:20px;}
 #foot1,#foot2,#foot3,#foot4 a{padding-left: 5px;}
 
 h5#firstchild{padding-top:20px;}
 .foot{
-    color:rgb(113, 163, 228);
+    color:rgb(100, 98, 98);
     font-size: 22px;
     font-weight:bold;
 }
@@ -25,7 +21,7 @@ h5#firstchild{padding-top:20px;}
 }
 #noms {
     font-size: 16px;
-    color: white;
+    color:rgb(100, 98, 98);
     font-weight: normal;
 }
 #mentions {
@@ -78,6 +74,7 @@ a.socialIcon:hover, .socialHoverClass {
     height: 70px;
 }
 #nomf {
-    color: white;
+    color:rgb(100, 98, 98);
     font-size: 20px;
+    font-weight: bold;
 }
