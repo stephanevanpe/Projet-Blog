@@ -12,6 +12,9 @@ h5#firstchild{padding-top:20px;}
     font-size: 22px;
     font-weight:bold;
 }
+.foot:hover {
+    color: #c4bebee7
+}
 #foot3 {
     padding-top: 15px;
     padding-left: 40%;
@@ -35,7 +38,6 @@ ul.social-network li {
     display: inline;
     margin: 0 5px;
 }
-
 
 .social-network a.icoFacebook {
     background-color:#3B5998;
