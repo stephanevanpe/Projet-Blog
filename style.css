@@ -4,16 +4,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly ;
+    margin-top: 30px;
 }
 #article2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly ;
+    margin-top: 30px;
 }
 #article3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly ;
+    justify-content: space-evenly ; 
+    margin-top: 30px;
 }
 
 /*Footer*/
