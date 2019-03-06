@@ -17,50 +17,45 @@
     <header>
         <div class="container-fluid">
             <!--Partie de la Navbar-->
-            <div class="row justify-content-md-center">
-                <div class="col-md-10 col-sm-10 col-">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <img src="images/BigBurgerPig.jpg" width="30" height="30" alt="logo wild junk food">
-                        <a class="navbar-brand" href="#">Wild Junk Food </a>
-                    
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">A propos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                                </li>
-                            </ul>
-                            <form class="form-inline my-3 my-lg-0">
-                                <input class="form-control mr-sm-3" type="search" placeholder="Recherche">
-                                <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Recherche</button>
-                            </form>
-                        </div>
-                    </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="images/BigBurgerPig.jpg" width="30" height="30" alt="logo wild junk food">
+                <a class="navbar-brand" href="#">Big Pig Junk Food </a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-3 my-lg-0">
+                        <input class="form-control mr-sm-3" type="search" placeholder="Recherche">
+                        <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Recherche</button>
+                    </form>
                 </div>
-            </div>
-    </header>
-        <!-- Bandeau-->
-        <div class="row justify-content-md-center">
-            <div class="col-md-10 col-sm-10 col-">
-                <section id="bandeau">
-                    <img src="images/Malbouffe-photoHome.jpg" class="img-fluid" alt="Responsive image" width= "100%">
-                </section>
-            </div>
+            </nav>
+                <!-- Bandeau-->
+
+            <section id="bandeau">
+                <img src="images/Malbouffe-photoHome.jpg" class="img-fluid" alt="Responsive image" width= "100%">
+            </section>
         </div>
+    </header>
+
         <!--Articles-->
         <section id="articles">
-            <div class="row justify-content-md-center">
-                <div class="card mb-3 col-md-7">
+            <div class="container">
+                <div class="card mb-3 ">
                     <img src="images/Malbouffe_baiona.jpg" class="card-img-top" alt="Baiona contre la malbouffe">
                     <div class="card-body">
                         <h5 class="card-title">LE COMPTOIR PAYSAN, REMÈDE À LA MALBOUFFE DES FÊTES DE BAYONNE</h5>
@@ -72,7 +67,10 @@
                         <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-7">
+                <!--Carte A propos ( txt + 3 photos)-->
+            </div>
+            <div class="container">
+                <div class="card mb-3 ">
                     <img src="images/Malbouffe_fastandgood.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">FAST AND GOOD", LA NOUVELLE TENDANCE DES FAST-FOODS SAINS ET ABORDABLES POUR LUTTER CONTRE LA MALBOUFFE</h5>
@@ -82,7 +80,10 @@
                         <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-7">
+                <!--Carte Newsletter-->
+            </div>
+            <div class="container">
+                <div class="card mb-3 ">
                     <img src="images/Malbouffe_Bordeaux.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">BORDEAUX, ENCORE CLASSÉE PREMIÈRE VILLE DE LA MALBOUFFE</h5>
@@ -93,7 +94,10 @@
                         <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-7">
+                <!--Carte Catégories-->
+            </div>
+            <div class="container">
+                <div class="card mb-3 ">
                     <img src="images/Malbouffe_maladies.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">UN LIEN ENTRE MALBOUFFE ET MALADIES MENTALES</h5>
@@ -103,7 +107,18 @@
                         <button type="button" href="#" class="btn btn-light">Lire la suite</button>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-7">
+                <!--Video-->
+                <section id="video">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/64yAzs5ywlc" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <div class="card mb-3 ">
                     <img src="images/Malbouffe_kids.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">WE DEMAIN: LES GÉANTS DE LA MALBOUFFE PRENNENT NOS ENFANTS POUR CIBLES"</h5>
@@ -114,25 +129,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!--Video-->
-        <section id="video">
-            <div class="card text-center">
-                
-                <div class="card-body">
-                    <p class="card-text">
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/64yAzs5ywlc" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                    </p>
-
-                </div>
-
-            </div>
-                
-
         </section>
         <!-- Bouttons de navigation entre pages-->
         <section id="bouttons">
@@ -168,30 +164,30 @@
 
 
             <!--Footer-->
-            <footer class="container ">
-                <div class="container justify-content-md-center" id="bg3">
+            <footer>
+                <div id="container">
                     <div class="float-left logoB">
                         <img src="images/BigBurgerPig.jpg" class="logo" alt="">
-                        <p id="nomf">Wild Junk Food</p>
+                        <p id="nomf">Big Pig Junk Food</p>
                         <p id="noms">Créé par les Wilder: Amine, Sarah, Stéphane</p>
                     </div>
-                    <div class="row foot">
-                        <div class="col-md-3 col-sm- col- foot1">
+                    <div class="">
+                        <div class="">
                             <a class="foot" href="#">Accueil</a>
                         </div>
-                        <div id="foot1" class="col-md-3 col-sm- col- foot1">
+                        <div id="foot1" class="">
                             <a class="foot" href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank">À Propos</a>
                         </div>
-                        <div id="foot2" class="col-md-3 col-sm- col- foot1">
+                        <div id="foot2" class="">
                             <a class="foot" href="#">Nous Contacter</a>
                         </div>
-                        <div id="foot4" class="col-md-3 col-sm- col- foot1">
+                        <div id="foot4" class="">
                             <ul class="social-network social-circle">
                                 <li><a href="https://fr-fr.facebook.com/mcdonaldsfrance/" target="_blank" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://twitter.com/mcdonalds" target="_blank" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                             </ul>	
                         </div>
-                        <div id="foot3" class="col-md-12 col-sm-12 col-">
+                        <div id="foot3" class="">
                             <a class="foot" id="mentions" href="#">Mentions Légales</a>
                         </div>
                     </div>
@@ -207,5 +203,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-</body> 
+    </body>
 </html>
