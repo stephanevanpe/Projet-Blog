@@ -31,16 +31,16 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">A propos</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                 </li>
             </ul>
             <form class="form-inline my-3 my-lg-0">
-                <input class="form-control mr-sm-3" type="search" placeholder="Recherche">
-                <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Recherche</button>
+                <input class="form-control mr-sm-3" type="search" placeholder="Faites votre recherche ici">
+                <button class="btn btn-outline-secondary my-3 my-sm-0" type="submit">Recherche</button>
             </form>
         </div>
     </nav>
@@ -189,13 +189,33 @@
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <div id="responsive-images"
-                        data-responsive="">
-                        <a href="images/gallery/Addict.jpg">
-                            <img src="" />
+                    <div id="srcset">
+                        <a href="images/gallery/Addict.jpg" data-srcset="images/gallery/Addict-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="images/gallery/Addict.jpg" />
                         </a>
-                        <a href="img/img2.jpg"
-                            data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2-757.jpg 757">
+                        <a href="images/gallery/Brand.jpg" data-srcset="images/gallery/Brand-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/candies-colorful-colourful-33385.jpg"
+                            data-srcset="images/gallery/candies-colorful-colourful-33385-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/Malbouffe-bouche.jpg"
+                            data-srcset="images/gallery/Malbouffe-bouche-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/jay-wennington-280328-unsplash.jpg"
+                            data-srcset="images/gallery/jay-wennington-280328-unsplash-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
+                            <img src="img/thumb2.jpg" />
+                        </a>
+                        <a href="images/gallery/veggie_vs_junk.jpg"
+                            data-srcset="images/gallery/veggie_vs_junk-375.jpg 375w"
+                            data-sizes="(min-width: 40em) 80vw, 100vw">
                             <img src="img/thumb2.jpg" />
                         </a>
                     </div>
@@ -281,6 +301,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script scr="$('#srcset').lightGallery();"></script>
 </body>
 
 </html>
