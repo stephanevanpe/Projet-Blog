@@ -14,7 +14,7 @@
     <title>Big Pig Junk Food Blog</title>
 </head>
 
-<body>
+<body style="background:rgb(100, 98, 98)">
     <!--Partie de la Navbar-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #FFC0CB">
 
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <img src="images/BigBurgerPig.jpg" width="30" height="30" alt="logo wild junk food">
-        <a class="navbar-brand" href="#">Big Pig Junk Food </a>
+        <a class="navbar-brand" id="Titre" href="#">Big Pig Junk Food </a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
@@ -46,12 +46,11 @@
     </nav>
     <header>
 
-        <div class="container-fluid">
-            <!-- Bandeau-->
-            <section id="bandeau">
-                <img src="images/Malbouffe-photoHome.jpg" class="img-fluid" alt="Responsive image" width="100%">
-            </section>
-        </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/Malbouffe-photoHome.jpg" class="img-fluid" alt="Responsive image" width="100%">
+                </div>
+            </div>
     </header>
 
     <!--Articles-->
@@ -150,6 +149,7 @@
                 <img src="images/categories_junk-food.jpg" class="card-img-top" alt="liste des catégories">
                 <div class="card-body">
                     <h5 class="card-title">Catégories</h5>
+                    <img src="https://27a7x92iyp7i4yd8b4bgzvnb-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/iOS-Blog.gif" width="100%" height="250px">
                 </div>
                 <div class="card-body d-flex flex-column justify-content-between mt-0">
                     <a href="#" class="list-group-item list-group-item-action active-secondary">Société</a>
@@ -178,12 +178,10 @@
             <section id="video">
                 <div class="card border-dark" style="width: 20rem;">
                     <div class="card-body">
-                        <p class="card-text">
-                            <iframe width="250" height="315" src="https://www.youtube.com/embed/64yAzs5ywlc"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </p>
+                        <iframe width="275" height="550" src="https://www.youtube.com/embed/64yAzs5ywlc"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
@@ -284,7 +282,7 @@
             </div>
         </div>
         <!-- Bouttons de navigation entre pages-->
-        <section id="bouttons">
+        <section id="boutons">
             <div class="card border-0">
                 <div class="card-body no-border">
                     <div class="btn-group" role="group" aria-label="Third group">

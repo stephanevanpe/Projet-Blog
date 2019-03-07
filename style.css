@@ -7,7 +7,9 @@
     background-color:#FFC0CB; 
 
 }
-
+#Titre{
+    color:rgb(100, 98, 98) ;
+}
 /*Body*/
 #article1 {
     display: flex;
@@ -41,7 +43,9 @@
     justify-content: space-evenly ; 
     margin-top: 30px;
 }
-
+.border-0 {
+    background-color:rgb(100, 98, 98) ;
+}
 /*Footer*/
 #footer{background-color:#FFC0CB; color: white; padding-bottom:20px;}
 #footer {
@@ -171,4 +175,10 @@ li#srcset a img{
 li#srcset a:hover img{
     width:200px;height:200px;
     z-index:100;
+}
+@media (max-width:450px) {
+    #article1, #article2, #article3, #article4, #article5 {
+        flex-direction: column;
+    }
+
 }
